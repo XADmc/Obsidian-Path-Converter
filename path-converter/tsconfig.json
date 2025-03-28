@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+      "target": "ES2020",
+      "module": "CommonJS",
+      "lib": ["DOM", "ES2020"],
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "types": ["node"],                     // 明确声明需要 node 类型
+      "typeRoots": [
+        "./node_modules/@types",             // 默认类型目录
+        "./"                                 // 当前目录（用于 obsidian.d.ts）
+      ],
+      "rootDir": ".",
+      "outDir": ".",
+      "resolveJsonModule": true
+    },
+    "include": ["**/*.ts", "obsidian.d.ts"], 
+    "exclude": ["node_modules"]
+  }

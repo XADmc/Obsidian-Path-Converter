@@ -4,7 +4,6 @@
 
 一款智能的Obsidian路径转换插件，实现跨平台笔记的无缝衔接。自动转换Windows/macOS/Linux系统的图片路径格式，让您的笔记在不同设备间自由流动。
 
-[English Documentation](README.md) | 中文文档
 
 ## ✨ 核心功能
 
